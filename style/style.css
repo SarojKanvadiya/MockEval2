@@ -31,3 +31,50 @@ a{
     font-weight: 530;
 
 }
+
+#loginform{
+   
+width: 30%;
+margin: 40px auto;
+border: 2px solid rgb(16, 135, 96);;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding: 30px;
+border-radius: 10px;
+
+}
+
+h2{
+    margin-top: -10px;
+    text-align: center;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+#submit{
+    margin-top: 10px;
+    background-color: rgb(16, 135, 96);
+    color: white;
+    font-weight: bold;
+}
+#submit:hover{
+    color: rgb(16, 135, 96);
+    border: 2px  solid rgb(16, 135, 96);
+    background-color: white;
+}
+
+input{
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid rgb(16, 135, 96);
+
+}
+label{
+    font-size: 18px;
+}
