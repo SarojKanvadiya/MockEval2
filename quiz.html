@@ -4,12 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/style.css">
-    <title>Mini Quiz App</title>
+    <title>Quiz Management Page</title>
 </head>
 <body>
     <div id="nav">
-        
+    </div>
+
+    <div id="quizform">
+        <h2>Add Quiz Question</h2>
+        <form action="" id="form">
+            <label for="title">Question Statement</label>
+            <input id="title" type="text" placeholder="Write Question Here...">
+            <input id="optionA" type="text" placeholder="Option A"> 
+            <input id="optionB" type="text" placeholder="Option B">
+            <input id="optionC" type="text" placeholder="Option C">
+            <input id="optionD" type="text" placeholder="Option D">
+            <select name="" id="correctoption">
+                <option value="">Correct Option</option>
+                <option value="optionA">Option A</option>
+                <option value="optionB">Option B</option>
+                <option value="optionC">Option C</option>
+                <option value="optionD">Option D</option>
+            </select>
+
+
+            <input type="submit" name="login" id="submit" value="Add Quiz">
+        </form>
     </div>
 </body>
 <script src="./script/navbar.js"></script>
+<script type="module" src="./script/quiz.js"></script>
 </html>
