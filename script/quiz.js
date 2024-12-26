@@ -37,7 +37,7 @@ async function getQuiz() {
     try{
         let res = await fetch(`${baseurl}/questions`);
     let data = await res.json()
-    console.log(data)
+    return data;
     }catch(err){
         console.log(err)
     }
@@ -50,7 +50,9 @@ window.onload = async()=>{
     displayQuiz(arr)
 }
 let cont = document.getElementById("quiz-container");
+
 function displayQuiz(arr){
+
 arr.map((el,i)=>{
     let card = document.createElement("div");
     card.setAttribute("id", "card");
