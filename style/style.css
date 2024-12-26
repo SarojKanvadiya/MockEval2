@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#nav-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(16, 135, 96);
+}
+
+#nav-links{
+    width: 50%;
+    margin-left:10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logo{
+    /* border: 2px solid red; */
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 23px;
+    color: rgb(141, 80, 7);
+    font-weight: 530;
+
+}
